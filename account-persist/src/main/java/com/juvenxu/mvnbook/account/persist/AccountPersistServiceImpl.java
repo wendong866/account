@@ -65,7 +65,7 @@ public class AccountPersistServiceImpl
 
         for ( Element accountEle : (List<Element>) accountsEle.elements() )
         {
-            if ( accountEle.elementText( ELEMENT_ACCOUNT_ID ).equals( doc ) )
+            if ( accountEle.elementText( ELEMENT_ACCOUNT_ID ).equals( id ) )
             {
                 accountEle.detach();
 
