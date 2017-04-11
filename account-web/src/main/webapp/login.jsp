@@ -21,7 +21,7 @@ button {margin: 20px 20px 10px 180px;width: 80px;height: 30px;font-size: 10pt;}
 <label>Password</label><input type="password" name="password"></input><br/>
 <button>Login</button>
 </form>
-<div style="display: none;">
+<div style="display: block;">
 <hr/>
 <img width=280px src="http://code.greatops.net/jingyun/public/raw/79cb7fe4af01429c8ccbdca9f9a46340389703db/wechat.png" style="margin-right: 20px">
 <img width=280px src="http://code.greatops.net/jingyun/public/raw/d3aa2996092df0830e16735dd2b999e79b3ab86f/link.jpeg">
