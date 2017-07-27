@@ -81,7 +81,7 @@
 				    	<artifactId>docker-maven-plugin</artifactId>
 				    	<version>0.4.9</version>
 				    	<configuration>
-						<imageName>reg.greatops.net/devops/${project.artifactId}:${project.version}</imageName>
+						<imageName>harbor.greatops.net/devops/${project.artifactId}:${project.version}</imageName>
 						<baseImage>tomcat:8.0.20-jre8</baseImage>
 						<dockerDirectory>${project.basedir}</dockerDirectory>
 						<resources>
